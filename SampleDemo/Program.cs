@@ -16,6 +16,7 @@ namespace SampleDemo
                 {
                     //Adds key and Sets value.
                     redisClient.Set(testKeyName, "txdycmr");
+//Test Merge
                 }
 
                 Console.WriteLine("My name is: " + redisClient.Get<string>(testKeyName));
